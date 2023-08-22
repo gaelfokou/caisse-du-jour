@@ -202,6 +202,10 @@
                 $(this).closest('.alert').remove();
             });
 
+            $(document).on('click', '.close', function(event) {
+                $(this).closest('.alert').remove();
+            });
+
             $('#form').on('submit', function(event) {
                 event.preventDefault();
                 var form = $(this);

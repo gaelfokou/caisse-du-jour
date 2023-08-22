@@ -55,6 +55,10 @@
                 }
             });
 
+            $(document).on('click', '.close', function(event) {
+                $(this).closest('.alert').remove();
+            });
+
             $(document).on('click', '.btn-remove', function(event) {
                 event.preventDefault();
 
