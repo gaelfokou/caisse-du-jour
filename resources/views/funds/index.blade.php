@@ -64,6 +64,7 @@
                     type: 'DELETE',
                     success: function(data, textStatus, jqXHR){
                         href.closest('tr').remove();
+                        location.reload();
                     }
                 });
             });

@@ -219,7 +219,7 @@
                     processData: false,
                     type: 'PUT',
                     success: function(data, textStatus, jqXHR){
-                        location.reload();
+                        window.location.href = "{{ route('funds.index') }}";
                     }
                 });
             });
