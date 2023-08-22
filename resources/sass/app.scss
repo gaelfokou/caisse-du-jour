@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.btn-add, .btn-remove {
+    width: 100px;
+    margin: 15px 0 10px 0;
+}
+.pull-right {
+    float: right;
+}
+label, legend {
+    font-weight: bold;
+    margin-top: 10px;
+}
+label {
+    margin-bottom: 10px;
+}
+label.total {
+    font-size: 24px;
+}
+label.subtotal {
+    font-size: 18px;
+}
+button[type="submit"] {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand {
+    font-size: 18px !important;
+}
+.nav-link {
+    font-size: 15px !important;
+}
